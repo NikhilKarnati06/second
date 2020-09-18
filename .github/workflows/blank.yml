@@ -26,7 +26,7 @@ jobs:
       - name: java version
         run: java -version
       - name: docker version
-        run: docker -version
+        run: docker -v
       - name: python version
         run: python --version
 
